@@ -14,10 +14,10 @@ export const data = [
     // Pergunta 2
     {
         pergunta: 'Qual ODS tem como foco a erradicação da pobreza?',
-        resp1: 'ODS 3',
-        resp2: 'ODS 5',
-        resp3: 'ODS 7',
-        respcorreta: 'ODS 2'
+        resp1: 'ODS III',
+        resp2: 'ODS V',
+        resp3: 'ODS VII',
+        respcorreta: 'ODS II'
     },
     { text: 'Errado essa não é a ODS com foco na erradicação da pobreza.' },
     { text: 'Errado essa não é a ODS com foco na erradicação da pobreza.' },

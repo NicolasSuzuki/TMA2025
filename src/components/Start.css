@@ -13,18 +13,55 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-image: url('../image/aoc_menor.png');
+  background-image: url('../image/ods.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.mask {
+  position: absolute;
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* black with 0.7 opacity */
+  z-index: 1;
+}
+
+.quiz-title {
+  font-family: Arial Black, Impact, sans-serif; /* ou outra fonte bold sem serifa */
+  font-size: 200px; 
+  display: flex;
+  gap: 10px; /* espaço entre AOC e QUIZ */
+  z-index: 2;
+}
+
+.filled {
+  color: #FFD700; /* amarelo cheio */
+  font-weight: 700;
+  z-index: 2;
+}
+
+.outline {
+  color: transparent;
+  -webkit-text-stroke: 2px #FFD700; /* contorno amarelo */
+  font-weight: 700;
+  z-index: 2;
+}
+
+body {
+  background: #000; /* fundo preto ou gradiente escuro */
 }
 
 .overlay {
   text-align: center;
   color: white;
+  z-index: 2;
 }
 
 h1 {
@@ -32,8 +69,8 @@ h1 {
   line-height: 1.1;
 }
 
-button {
-  background-color: rgb(26, 208, 26);
+.button {
+  background-color: rgb(252, 235, 6);
   color: black;
   font-weight: bold;
   padding: 10px;

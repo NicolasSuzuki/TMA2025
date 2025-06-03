@@ -1,28 +1,20 @@
+import React from 'react'
 import styles from './ChoosePath.module.css'
-import impactoImg from '../image/adress.png'
-import sustentavelImg from '../image/pipeline.png'
-import consumoImg from '../image/triangle.png'
+import quiz from '../image/quiz.png'
+import guess from '../image/guess.png'
 
-function ChoosePath({ pathImpacto, pathSustentavel, pathConsumo }) {
+function ChoosePath({pathEndereco,pathPipe,pathHierarquia}) {
+
   return (
-    <div className={styles.ChoosePath}>
-      <h1>Escolha qual tema deseja <span className={styles.sub}>EXPLORAR</span></h1>
-      <div className={styles.row}>
-        <div className={styles.card} onClick={pathImpacto}>
-          IMPACTOS AMBIENTAIS
-          <img className={styles.images} src={impactoImg} alt="Impacto Ambiental" />
-        </div>
-        <div className={styles.card} onClick={pathSustentavel}>
-          TECNOLOGIAS SUSTENTÁVEIS
-          <img className={styles.images} src={sustentavelImg} alt="Tecnologias Sustentáveis" />
-        </div>
-        <div className={styles.card} onClick={pathConsumo}>
-          CONSUMO CONSCIENTE
-          <img className={styles.images} src={consumoImg} alt="consumo consciente" />
-        </div>
-      </div>
+   <div className={styles.ChoosePath}>
+   <h1>Escolha o caminho que quer  <span className={styles.sub}>JOGAR</span> </h1>
+   <div className={styles.row}>
+    <div className={styles.card} onClick={pathEndereco}>VOCÊ SABE SOBRE ODS?<img className={styles.images}src={quiz}></img></div>
+    <div className={styles.card} onClick={pathPipe}>ACERTE A PALAVRA<img className={styles.images} src={guess}></img></div>
+    {/*<div className={styles.card} onClick={pathHierarquia}>CACHE<img className={styles.images} src={triangle}></img></div>*/}
     </div>
-  );
+   </div>
+  )
 }
 
-export default ChoosePath;
+export default ChoosePath

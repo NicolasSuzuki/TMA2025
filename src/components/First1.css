@@ -1,0 +1,45 @@
+h1 {
+    font-size: 2em;
+    line-height: 1.1;
+    color: rgb(0, 0, 0);
+  }
+footer{
+    font-size: 2em !important;
+    margin-top: 2em;
+    color:gold;
+    display: inline-block;
+}
+.box{
+    font-weight: bold !important;
+    display: flex;
+    height: 7em !important;
+    width: 25em !important;
+    box-shadow: gold 0px 5px 15px !important;
+    cursor: pointer;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+   transition: 0.4s;
+   margin: 2em;
+   background-color: aliceblue;
+}
+
+.box:hover{
+    transform: scale3d(1.15,1.15,1.15);
+    color: black;
+    background-color: beige;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+
+#row1{
+    margin-bottom: 5rem;
+}
+
+button{
+    background-color: rgba(255, 255, 255, 0.445);
+}

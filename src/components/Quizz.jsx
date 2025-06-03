@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 function Quiz({ questions }) {
   const [current, setCurrent] = useState(0);

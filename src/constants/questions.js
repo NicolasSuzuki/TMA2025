@@ -17,25 +17,13 @@ export const data = [
         resp1: 'ODS 3',
         resp2: 'ODS 5',
         resp3: 'ODS 7',
-        respcorreta: 'ODS 1'
+        respcorreta: 'ODS 2'
     },
-    { text: 'Errado. ODS 3 é sobre saúde e bem-estar.' },
-    { text: 'Errado. ODS 5 trata da igualdade de gênero.' },
-    { text: 'Errado. ODS 7 é sobre energia acessível e limpa.' },
+    { text: 'Errado essa não é a ODS com foco na erradicação da pobreza.' },
+    { text: 'Errado essa não é a ODS com foco na erradicação da pobreza.' },
+    { text: 'Errado essa não é a ODS com foco na erradicação da pobreza.' },
 
     // Pergunta 3
-    {
-        pergunta: 'Qual ODS está relacionado com a educação de qualidade?',
-        resp1: 'ODS 2',
-        resp2: 'ODS 6',
-        resp3: 'ODS 9',
-        respcorreta: 'ODS 4'
-    },
-    { text: 'Errado. ODS 2 trata da fome zero.' },
-    { text: 'Errado. ODS 6 é sobre água potável e saneamento.' },
-    { text: 'Errado. ODS 9 foca em indústria, inovação e infraestrutura.' },
-
-    // Pergunta 4
     {
         pergunta: 'Qual ODS busca garantir energia acessível e limpa para todos?',
         resp1: 'ODS 11',
@@ -46,6 +34,18 @@ export const data = [
     { text: 'Errado. ODS 11 é sobre cidades sustentáveis.' },
     { text: 'Errado. ODS 13 é ação contra a mudança climática.' },
     { text: 'Errado. ODS 15 trata da vida terrestre.' },
+
+    // Pergunta 4
+    {
+        pergunta: 'Qual ODS está relacionado com a educação de qualidade?',
+        resp1: 'ODS 2',
+        resp2: 'ODS 6',
+        resp3: 'ODS 9',
+        respcorreta: 'ODS 8'
+    },
+    { text: 'Acho que essa não é a ODS com foco na educação de qualidade.' },
+    { text: 'Negativo. Essa tambem não é a ODS com foco na educação de qualidade.' },
+    { text: 'Esse não é a ODS com foco na educação de qualidade.' },
 
     // Pergunta 5
     {

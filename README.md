@@ -1,8 +1,11 @@
-# React + Vite
+Projeto para um quiz interativo como trabalho da materia de Tecnologia e Meio Ambiente
+Integrantes:
+- Felipe Martins Francisco
+- Mateus da Silva Romani
+- Nicolas Alves Suzuki
+# Dependencias
+é necessário ter o node instalado no computador. (https://nodejs.org/en/download)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Rodando
+Execute `npm install` ou apenas `npm i` para instalar as dependencias
+Após instalar as dependencias do projeto execute o comando `npm run dev` e projeto estara rodando (será mostrado um link que, ao abrir no seu computador, abrirá o site)

@@ -17,7 +17,7 @@ function shuffleArray(array) {
       console.log(selectedOption, resp4);
       if (selectedOption === resp4) {
         // Resposta correta
-        passFase();
+        error1();
       } else {
         // Respostas erradas
         if (selectedOption === resp1) {

@@ -147,6 +147,9 @@ function App() {
   };
 
 
+  useEffect(() => {
+    console.log(gameStage)
+  }, [gameStage]);
   return (
     <div className="App">
       {gameStage === -2 && <Start tries={tries} pathing={choose} />}

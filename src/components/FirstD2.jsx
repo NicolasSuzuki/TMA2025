@@ -12,8 +12,6 @@ function shuffleArray(array) {
   function FirstD2({ gameStage, pergunta, resp1, resp2, resp3, resp4, passFase, error1}) {
     const shuffledOptions = shuffleArray([resp1, resp2, resp3, resp4]);
   
-
-  
     return (
       <div className="FirstD2">
         <button id='fase' onClick={passFase}>{gameStage + 1}</button>
